@@ -1,7 +1,3 @@
-/* =========================
-   GENERAL STYLES
-========================= */
-
 *{
     margin:0;
     padding:0;
@@ -16,17 +12,10 @@ body{
     transition:0.4s;
 }
 
-/* =========================
-   NAVBAR
-========================= */
-
 .navbar{
     box-shadow:0 2px 10px rgba(0,0,0,0.1);
 }
 
-/* =========================
-   HERO SECTION
-========================= */
 
 .hero-section{
     position:relative;
@@ -62,9 +51,7 @@ body{
     margin:15px 0;
 }
 
-/* =========================
-   CAROUSEL
-========================= */
+
 
 .carousel-img{
     height:500px;
@@ -72,9 +59,7 @@ body{
     border-radius:15px;
 }
 
-/* =========================
-   STATISTICS
-========================= */
+
 
 .stat-card{
     background:white;
@@ -93,9 +78,6 @@ body{
     font-size:2.5rem;
 }
 
-/* =========================
-   ABOUT
-========================= */
 
 #about img{
     transition:0.4s;
@@ -105,9 +87,7 @@ body{
     transform:scale(1.03);
 }
 
-/* =========================
-   EVENTS
-========================= */
+
 
 .event-card{
     background:white;
@@ -139,10 +119,6 @@ body{
     width:100%;
 }
 
-/* =========================
-   GALLERY
-========================= */
-
 .gallery-img{
     width:100%;
     height:250px;
@@ -154,10 +130,6 @@ body{
 .gallery-img:hover{
     transform:scale(1.05);
 }
-
-/* =========================
-   REGISTRATION FORM
-========================= */
 
 form{
     background:white;
@@ -175,18 +147,14 @@ form textarea{
     color:green;
 }
 
-/* =========================
-   VIDEO
-========================= */
+
 
 video{
     max-height:500px;
     object-fit:cover;
 }
 
-/* =========================
-   CONTACT
-========================= */
+
 
 #contact img{
     transition:0.4s;
@@ -206,9 +174,7 @@ video{
     color:#0d6efd;
 }
 
-/* =========================
-   TOAST
-========================= */
+
 
 #toast{
     position:fixed;
@@ -223,9 +189,7 @@ video{
     font-weight:bold;
 }
 
-/* =========================
-   BACK TO TOP
-========================= */
+
 
 #topBtn{
     position:fixed;
@@ -245,9 +209,7 @@ video{
     background:#084298;
 }
 
-/* =========================
-   IMAGE MODAL
-========================= */
+
 
 #imageModal{
     display:none;
@@ -277,17 +239,13 @@ video{
     cursor:pointer;
 }
 
-/* =========================
-   FOOTER
-========================= */
+
 
 footer{
     margin-top:30px;
 }
 
-/* =========================
-   DARK MODE
-========================= */
+
 
 .dark{
     background:#121212;
@@ -309,9 +267,7 @@ footer{
     background:#000 !important;
 }
 
-/* =========================
-   ANIMATIONS
-========================= */
+
 
 @keyframes fadeIn{
 
@@ -330,9 +286,7 @@ section{
     animation:fadeIn 1s ease-in-out;
 }
 
-/* =========================
-   RESPONSIVE
-========================= */
+
 
 @media(max-width:768px){
 
