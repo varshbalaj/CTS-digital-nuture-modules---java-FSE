@@ -1,12 +1,4 @@
-// ==========================
-// COMMUNITY EVENT PORTAL
-// ==========================
-
 console.log("Community Portal Loaded");
-
-// ==========================
-// EVENT DATA
-// ==========================
 
 let totalRegistrations = 500;
 
@@ -39,10 +31,6 @@ const events = [
     description:"Participate in exciting sports activities."
 }
 ];
-
-// ==========================
-// EVENT DISPLAY
-// ==========================
 
 const eventContainer =
 document.getElementById("eventContainer");
@@ -90,10 +78,6 @@ function displayEvents(eventList){
 
 displayEvents(events);
 
-// ==========================
-// REGISTRATION SYSTEM
-// ==========================
-
 function registerEvent(index){
 
     if(events[index].seats > 0){
@@ -125,10 +109,6 @@ function registerEvent(index){
     }
 }
 
-// ==========================
-// SEARCH
-// ==========================
-
 const searchBox =
 document.getElementById("searchBox");
 
@@ -152,10 +132,6 @@ function(){
 });
 
 }
-
-// ==========================
-// CATEGORY FILTER
-// ==========================
 
 const categoryFilter =
 document.getElementById("categoryFilter");
@@ -183,10 +159,6 @@ function(){
 });
 
 }
-
-// ==========================
-// EVENT FEE DISPLAY
-// ==========================
 
 const eventType =
 document.getElementById("eventType");
@@ -235,11 +207,6 @@ function(){
 });
 
 }
-
-// ==========================
-// LOAD SAVED EVENT
-// ==========================
-
 window.addEventListener(
 "load",
 ()=>{
@@ -261,10 +228,6 @@ document.getElementById(
 }
 
 });
-
-// ==========================
-// FORM SUBMISSION
-// ==========================
 
 const registrationForm =
 document.getElementById(
@@ -301,10 +264,6 @@ this.reset();
 
 }
 
-// ==========================
-// FEEDBACK COUNTER
-// ==========================
-
 const feedback =
 document.getElementById(
 "feedback"
@@ -325,9 +284,6 @@ this.value.length;
 
 }
 
-// ==========================
-// VIDEO READY
-// ==========================
 
 const promoVideo =
 document.getElementById(
@@ -347,10 +303,6 @@ document.getElementById(
 };
 
 }
-
-// ==========================
-// GEOLOCATION
-// ==========================
 
 function findLocation(){
 
@@ -394,10 +346,6 @@ showToast(
 
 }
 
-// ==========================
-// TOAST MESSAGE
-// ==========================
-
 function showToast(message){
 
 const toast =
@@ -421,10 +369,6 @@ toast.style.display =
 },3000);
 
 }
-
-// ==========================
-// DARK MODE
-// ==========================
 
 const themeBtn =
 document.getElementById(
@@ -453,7 +397,7 @@ isDark
 
 }
 
-// Load Dark Mode
+
 
 window.addEventListener(
 "load",
@@ -473,9 +417,7 @@ document.body.classList
 
 });
 
-// ==========================
-// GALLERY POPUP
-// ==========================
+
 
 const galleryImages =
 document.querySelectorAll(
@@ -522,9 +464,7 @@ document.getElementById(
 
 }
 
-// ==========================
-// BACK TO TOP
-// ==========================
+
 
 const topBtn =
 document.getElementById(
@@ -564,9 +504,6 @@ behavior:"smooth"
 
 }
 
-// ==========================
-// ANIMATED COUNTERS
-// ==========================
 
 function animateCounter(
 id,
